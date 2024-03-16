@@ -11,8 +11,8 @@
 #define STACKSIZE 5
 
 typedef struct {
-	int  stackPointer;
-	int arr[STACKSIZE];
+	int  stackPointer ;
+	int array[STACKSIZE];
 } stack;
 
 void initStack(stack * st);
